@@ -8,6 +8,7 @@
       <template v-else>
         <MyButton size="small" label="ログイン" @onClick="$emit('onLogin')" />
         <MyButton size="small" label="会員登録" @onClick="$emit('onSignUp')" />
+        <MyButton size="small" label="会員登録" @onClick="$emit('onSignUp')" />
       </template>
     </div>
   </header>
